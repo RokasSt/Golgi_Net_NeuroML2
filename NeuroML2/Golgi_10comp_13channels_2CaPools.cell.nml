@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" 
-         id="Golgi_10comp_all_channels_twoCaPools">
+         id="Golgi_10comp_13channels_2CaPools">
 
     
     
@@ -38,7 +38,7 @@
       
 
 
-    <cell2CaPools id="Golgi_10comp_all_channels_twoCaPools">
+    <cell2CaPools id="Golgi_10comp_13channels_2CaPools">
 
         <notes> 10 compartment Golgi cell in NeuroML2 based on https://github.com/epiasini/GJGolgi_ReducedMorph/blob/master/neuroConstruct/morphologies/GJGolgi_Reduced.nml1. For segments 1,2,7 and 8 original NeuroML1 version contains fractionAlong=0.5. However, currently it is not implemented in NeuroML2:
 org.neuroml.model.util.NeuroMLException: Cannot yet handle fractionAlong being neither 0 or 1 </notes>
